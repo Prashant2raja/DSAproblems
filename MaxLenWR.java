@@ -4,7 +4,7 @@ public class MaxLenWR {
     public static void main(String[] args) {
         String s = "bbbb";
 
-        int left  = 0 , right = 0, max = 0 ;
+        int left  = 0 , right = 0, max = 0;
         Set<Character> set = new HashSet<>();
 
         while(right < s.length()) {
